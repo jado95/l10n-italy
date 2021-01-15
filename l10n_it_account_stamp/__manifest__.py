@@ -3,6 +3,7 @@
 # Copyright 2018 Ermanno Gnan (ermannognan@gmail.com)
 # Copyright 2018 Lorenzo Battistini (https://github.com/eLBati)
 # Copyright 2018-2019 Sergio Zanchetta (https://github.com/primes2h)
+# Copyright 2021 Gianmarco Conte <gconte@dinamicheaziendali.it>
 # License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl).
 
 {
@@ -20,7 +21,7 @@
     ],
     "data": [
         "data/data.xml",
-        "views/invoice_view.xml",
+        "views/account_move_view.xml",
         "views/product_view.xml",
         "views/company_view.xml",
     ],
