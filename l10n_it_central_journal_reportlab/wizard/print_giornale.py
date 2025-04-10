@@ -480,8 +480,8 @@ class WizardGiornaleReportlab(models.TransientModel):
             move_name = line["move_name"] or ""
             account = Paragraph(account_name, style_name)
 
-            # Gestione della visualizzazione dei dati in base al tipo di conto
-            # Per conti di credito/debito mostra il nome del partner, altrimenti mostra il nome della voce
+            # Management of data visualization based on account type
+            # For credit/debit accounts, displays the partner name, otherwise displays the entry name
             if line["account_type"] in ["asset_receivable", "liability_payable"]:
                 name = Paragraph(line["partner_name"], style_name)
 
